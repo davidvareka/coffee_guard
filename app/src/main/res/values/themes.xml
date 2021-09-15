@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CoffeeGuard" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary" tools:targetApi="l">#2b93d1</item>
+    </style>
+
+    <style name="Theme.AppSplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#64b5f6</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.CoffeeGuard</item>
+    </style>
+
+    <style name="Theme.CoffeeGuard.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CoffeeGuard.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.CoffeeGuard.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
